@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="meme-generator.css">
+  <title>Meme Generator</title>
+</head>
+<body class="body">
+  <div id="section">
+    <div id="parent_first_block">
+      <div id="first_block">
+        <div class="form_block">       
+          <div>
+            <div class="text-block">The Best Meme Generator</div>
+          </div>
+          <form class="grid-container">
+              <label class="item1" for="image-url" >Image URL</label>
+              <input type="text" class="a-input item2" id="image-url" placeholder="Insert URL of your image" required>
+            
+              <label class="item3" for="text-on-top" >Text On Top</label>
+              <input type="text" class="a-input item4" id="text-on-top" placeholder="What text do you want on top?">
+           
+              <label class="item5" for="text-on-bottom" >Text On Bottom</label>
+              <input type="text" class="a-input item6" id="text-on-bottom" placeholder="What text do you want on the bottom?"><br>
+            
+            <input id="create-meme" type="submit" class="submit-button" value="Create Meme">
+          </form>
+        </div>
+      </div>
+    </div>   
+      <div id="images-section">
+        <div id="images-block">
+        </div>
+      </div>
+  </div>
+  <script src="meme-generator.js"></script>
+</body>
+</html>
